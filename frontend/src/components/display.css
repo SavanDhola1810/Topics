@@ -1,0 +1,33 @@
+#hidd{
+    animation: animate 0.5s ;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+    0%{
+        top:100%;
+    }
+    100%{
+        top:33%;
+    }
+ 
+ }
+ ::-webkit-scrollbar {
+    /* position:fixed;
+    right:0; */
+    width: 10px;
+  }
+  
+  
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb { 
+    background: #888; 
+   }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+  }
+
+ 
